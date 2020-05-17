@@ -1,11 +1,16 @@
 # QQLevelQuery (Python Package)
 
 ## author: Happy-Rabbit
-## [contact me](mailto:happy.rabbit.yy@outlook.com?subject=about%20the%20QQLevelQuery%20module&body=%0dn%0dn%0dn%0dnSender:[Your_Name]%0dContact:[Contact])
+## [contact me](mailto:happy.rabbit.yy@outlook.com?subject=about%20the%20QQLevelQuery%20module&body=%0d%0d%0d%0dSender:[Your_Name]%0dContact:[Contact])
 
-- [Return README](./README.md)
+[Return README](./README.md)
 
-[TOC]
+[Go to Description](#Description)
+
+### What's Next... (just an idear)
+
+- [ ] Rewrite a class used `aiohttp`
+- [ ] Maybe can add another function...
 
 ### Versions:
 

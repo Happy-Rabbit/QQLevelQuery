@@ -1,11 +1,16 @@
 # QQLevelQuery (Python Package)
 
 ## 作者: Happy-Rabbit
-## [联系我](mailto:happy.rabbit.yy@outlook.com?subject=about%20the%20QQLevelQuery%20module&body=%0dn%0dn%0dn%0dnSender:[Your_Name]%0dContact:[Contact])
+## [联系我](mailto:happy.rabbit.yy@outlook.com?subject=关于QQLevelQuery模块的反馈&body=%0d%0d%0d%0d发送者:[你的名字]%0d联系方式:[联系方式])
 
-- [返回 README](./README.md)
+[返回 README](./README.md)
 
-[TOC]
+[前往简介](#简介)
+
+### 下一步的想法(初步):
+
+- [ ] 用`aiohttp`重新开发一个异步的类
+- [ ] 增加一些其他的功能(暂时还不知道加点啥2333)
 
 ### 版本:
 
