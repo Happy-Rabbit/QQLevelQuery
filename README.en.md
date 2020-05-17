@@ -68,6 +68,8 @@ Start the python (version should higher than 3.5)
 35
 >>> query.config(isDebug=True)
 >>> query.query()
+[2020-05-17 22:05:26.78 QueryQQLevel] INFO 当前请求的QQ账号为: xxxx
+[2020-05-17 22:05:26.78 QueryQQLevel] INFO 当前请求的代理为: 空
 [2020-05-17 22:05:26.78 QueryQQLevel] INFO 请求中...
 [2020-05-17 22:05:28.15 QueryQQLevel] INFO 请求成功
 [2020-05-17 22:05:28.17 QueryQQLevel] INFO 已找到QQ等级

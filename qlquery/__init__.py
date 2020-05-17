@@ -40,6 +40,8 @@ qq:         int     需要查询的QQ账号        默认为 0"""
             if qq:
                 self.qq = qq
                 log(f"账号已改为 {qq}") if self.isDebug else None
+            log(f"当前请求的QQ账号为: {self.qq}") if self.isDebug else None
+            log(f"当前请求的代理为: {self.session.proxies if self.session.proxies else '空'}") if self.isDebug else None
             log("请求中...") if self.isDebug else None
             request = self.session.get(self.targetUrl.format(qq=self.qq))
             log("请求成功") if self.isDebug else None
@@ -73,7 +75,7 @@ isDebug:    bool    是否显示调试信息        为 None 表示不更改(默
         if retry:
             self.retry = retry
         if proxies:
-            self.proxies = proxies
+            self.session.proxies = proxies
         if isDebug:
             self.isDebug = isDebug
 
